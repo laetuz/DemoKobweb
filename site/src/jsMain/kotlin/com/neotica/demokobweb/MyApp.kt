@@ -1,6 +1,7 @@
 package com.neotica.demokobweb
 
 import androidx.compose.runtime.*
+import com.neotica.demokobweb.pages.HomePage
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.core.App
 import com.varabyte.kobweb.silk.init.InitSilk
