@@ -1,0 +1,14 @@
+site:
+  title: "DemoKobweb"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/demokobweb.js"
+      api: "build/libs/demokobweb.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/demokobweb.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
