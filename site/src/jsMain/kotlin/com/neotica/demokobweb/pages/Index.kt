@@ -42,7 +42,7 @@ fun HomePage() {
         ) {
             FaFaceAngry(
                 modifier = Modifier.margin(right = 10.px),
-                style = IconStyle.FILLED,
+                style = IconStyle.OUTLINE,
                 size = IconSize.XXL,
             )
             P(
@@ -79,7 +79,6 @@ fun HomePage() {
             Text("Change theme")
         }
     }
-    Text("Hello World")
 }
 
 val InputStyle by ComponentStyle {
